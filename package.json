@@ -1,0 +1,20 @@
+{
+  "name": "express-js-sqlite-async-api",
+  "version": "1.0.0",
+  "description": "express-js-sqlite-async-api",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imran517/express-js-sqlite-async-api.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Imran",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "md5": "^2.3.0",
+    "sqlite3": "^4.2.0"
+  }
+}
