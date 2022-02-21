@@ -1,6 +1,3 @@
-
-
-
 const Task = {
     id: 0,
     name: '',
@@ -9,4 +6,11 @@ const Task = {
     status: '' // none, started, completed
 };
 
-module.exports = Task;
+const ServiceResult = {
+    status: "",
+    method: "",
+    data: null,
+    message: ""
+};
+
+module.exports = {Task, ServiceResult};
